@@ -94,8 +94,11 @@ https://github.com/othneildrew/Best-README-Template -->
     2. The input was then reshaped to adhere to the following format for the RNN:
        * Format: [Samples, Timesteps, Features]
        * In our case:
+       
          a. ‘Samples’ = Total number of records/inputs
+         
          b ‘Timesteps’ = Number of previous days (3) being considered
+         
          c. ‘Features’ = Number of features (4) being used from each day
 
   * #### How Final Design was chosen ?
@@ -110,7 +113,7 @@ https://github.com/othneildrew/Best-README-Template -->
     3. We decided to utilize LSTM, since it achieved best results in terms of loss.
     .
 
-    ##### Final Network Architecture:
+  * #### Final Network Architecture:
     1. <b>Final Design:</b>
        * Input: 3 timesteps – with 4 features each
        * LSTM-Layer-1: with 64 Units, with default activations (‘relu’ – activation, ‘sigmoid’ – recurrent activation)
@@ -128,8 +131,11 @@ https://github.com/othneildrew/Best-README-Template -->
 
   * #### Output of Training Loop
     <img src="Read_Me_Content/Case_Study/Training_Output.jpg" alt="Training Output">
+    
     * After training for 250 epochs, the latest ‘Loss’ value (MSE - Mean square error) was ~9.4085, which is very less, specially compared to the initial loss of over 25000. And the MAE (Mean Absolute Error) which was used as a metric as well, was also down to ~1.95.
+    
     * As we can see in the graph, the loss decreases drastically during the initial epochs and then improves in smaller chunks as it is nearing convergence; as is expected.
+    
     * The Date v/s Stock Value graph shows how the network is able to predict for the training data (at the end of training), which is consistent with the low loss value and backs our decision to stop at epochs=250, as it appears to be converging well.
 
   <spacer type="vertical" height="4" width="2"></spacer>
@@ -143,7 +149,9 @@ https://github.com/othneildrew/Best-README-Template -->
     <img src="Read_Me_Content/Case_Study/Testing_Output_Graph.jpg" alt="Testing Output Graph">
 
     * As we can see, some stocks appear to have been predicted very well.
+    
     * We can also observe some other stocks which were not predicted as accurately, but still are very close to the actual values.
+    
     * The above graph is reflective of the low loss and appears to provide efficient results.
 
   * #### Experiment with more days for features:
