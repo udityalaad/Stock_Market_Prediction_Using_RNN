@@ -11,7 +11,7 @@ https://github.com/othneildrew/Best-README-Template -->
   <img src="Read_Me_Content/TopLogo.png" alt="TopLogo">
   
   <p align="center">
-    A Recurrent Neural Network (RNN) to predict continuous future output using a time-based series of inputs.
+    Three Recurrent Neural Networks (RNNs) to predict continuous future output using a time-based series of inputs.
   </p>
 </div>
 
@@ -35,7 +35,7 @@ https://github.com/othneildrew/Best-README-Template -->
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-  In this project, we make use of TensorFlow's keras library to create a Recurrent Neural Network, that can effectively predict future values using data from the past, and also taking the sequence into consideration.
+  In this project, we make use of TensorFlow's keras library to create a 3 Recurrent Neural Networks - namely Simple, LSTM (Long Short Term Memory) and GRU (Gated Recurrent Unit); that can effectively predict future values using data from the past, and also takes the sequence into consideration.
 
   For case study analysis, we use stock market data of a company from all days of the year, in sequence. And try to predict the current day's stock using the value from previous 3 days. The results and discussions of the analysis can be found in one of the below sections.
 
