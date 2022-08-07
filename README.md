@@ -115,11 +115,11 @@ https://github.com/othneildrew/Best-README-Template -->
 
   * #### Final Network Architecture:
     1. <b>Final Design:</b>
-       * Input: 3 timesteps – with 4 features each
-       * LSTM-Layer-1: with 64 Units, with default activations (‘relu’ – activation, ‘sigmoid’ – recurrent activation)
-       * LSTM-Layer-2: with 128 Units, with default activations
-       * LSTM-Layer-3: with 256 Units, with default activations
-       * Dense-Layer: With only 1 neuron and no explicit activation; acting as the final output layer
+       * <b>Input:</b> 3 timesteps – with 4 features each
+       * <b>LSTM-Layer-1:</b> with 64 Units, with default activations (‘relu’ – activation, ‘sigmoid’ – recurrent activation)
+       * <b>LSTM-Layer-2:</b> with 128 Units, with default activations
+       * <b>LSTM-Layer-3:</b> with 256 Units, with default activations
+       * <b>Dense-Layer:</b> With only 1 neuron and no explicit activation; acting as the final output layer
 
         This is not a classification problem. Hence, we decided not to use any explicit activation at the output layer.
         We had also tried adding Dropout layers, but they were no help in improving the results.
@@ -181,7 +181,7 @@ https://github.com/othneildrew/Best-README-Template -->
   
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; udityalaad123@gmail.com
 
-  <b>Project Link</b> &nbsp; [https://github.com/udityalaad/Sentiment_Analysis_Using_CNN](https://github.com/udityalaad/Sentiment_Analysis_Using_CNN)
+  <b>Project Link</b> &nbsp; [https://github.com/udityalaad/Stock_Market_Prediction_Using_RNN](https://github.com/udityalaad/Stock_Market_Prediction_Using_RNN)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
