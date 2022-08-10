@@ -158,7 +158,7 @@ https://github.com/othneildrew/Best-README-Template -->
     * We tried with 6 days instead of 3.
     * And observed a higher loss value (~ 19) for the test set.
     * One can easily try this option by simply changing the value of ‘No_rel_days’ to 6 in both – training as well as testing files.
-
+ 
       <img src="Read_Me_Content/Case_Study/No_rel_days.jpg" alt="Changing the number of features/dependent days">
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
